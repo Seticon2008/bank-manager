@@ -1,12 +1,13 @@
 # bank-manager
 This project provides a basic system to manage all credit card charges and bank transactions you've made all in one place.
 
-August 6, 2025\
-Version 1.1.0
+September 23, 2025\
+Version 1.2.0
 
 The user can:\
-View list of registered accounts, months within an account, or registered charges within a month of an account
-Add or remove accounts, months within an account, or charges within a month of an account
+View list of registered accounts, months within an account, or registered charges within a month of an account\
+Add or remove accounts, months within an account, or charges within a month of an account\
+See a summary of charges made within a month of an account
 
 Loop:
 1. User prompted to select an existing account, add a new account, remove an existing account (entering -128), 
@@ -19,8 +20,9 @@ Loop:
 SETUP:
 1. Place directory in file system like so: C:\programs\camino
 2. Put *.bat files anywhere desired and execute or compile and run a driver class from command prompt\
-bankviewer.bat: use to simply view accounts, transactions, etc. (BankInterface.java)\
-bankmanager.bat: use to add or remove accounts, transactions, etc. (BankOpInterface.java)
+charge-interface.bat: use to simply view accounts, transactions, etc. (ChargeInterface.java)\
+charge-op-interface.bat: use to add or remove accounts, transactions, etc. (ChargeOpInterface.java)\
+charge-calc-interface.bat: use to see summary of charges made (ChargeCalculatorInterface.java)
 
 Also:\
 simbolos directory contains headers you can use for different banks\
