@@ -1,10 +1,10 @@
 # bank-manager
 This project provides a basic system to manage all credit card charges and bank transactions you've made all in one place.
 
-August 6, 2025
+August 6, 2025\
 Version 1.1.0
 
-The user can:
+The user can:\
 View list of registered accounts, months within an account, or registered charges within a month of an account
 Add or remove accounts, months within an account, or charges within a month of an account
 
