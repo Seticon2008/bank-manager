@@ -18,12 +18,12 @@ Loop:
 
 SETUP:
 1. Place directory in file system like so: C:\programs\camino
-2. Put *.bat files anywhere desired and execute or compile and run a driver class from command prompt
-bankviewer.bat: use to simply view accounts, transactions, etc. (BankInterface.java)
+2. Put *.bat files anywhere desired and execute or compile and run a driver class from command prompt\
+bankviewer.bat: use to simply view accounts, transactions, etc. (BankInterface.java)\
 bankmanager.bat: use to add or remove accounts, transactions, etc. (BankOpInterface.java)
 
-Also:
-simbolos directory contains headers you can use for different banks
+Also:\
+simbolos directory contains headers you can use for different banks\
 To use them:
 1. once new account created, replace simbolo.txt in account in camino/cuentas/*accountname*/simbolos
 	directory with desired header text file from camino/simbolos directory
