@@ -17,10 +17,10 @@ Loop:
 	charge, or remove an existing charge (entering -128)
 
 SETUP:
-Place directory in file system like so: C:\programs\camino
-Put *.bat files anywhere desired and execute or compile and run a driver class from command prompt
--bankviewer.bat: use to simply view accounts, transactions, etc. (BankInterface.java)
--bankmanager.bat: use to add or remove accounts, transactions, etc. (BankOpInterface.java)
+1. Place directory in file system like so: C:\programs\camino
+2. Put *.bat files anywhere desired and execute or compile and run a driver class from command prompt
+bankviewer.bat: use to simply view accounts, transactions, etc. (BankInterface.java)
+bankmanager.bat: use to add or remove accounts, transactions, etc. (BankOpInterface.java)
 
 Also:
 simbolos directory contains headers you can use for different banks
